@@ -1,22 +1,15 @@
 {
   "name": "socialmediafront",
-  "version": "1.0.0",
-  "description": "post and comments front",
-  "main": "index.js",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/DavsRC/socialMediaFront.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/DavsRC/socialMediaFront/issues"
-  },
-  "homepage": "https://github.com/DavsRC/socialMediaFront#readme",
-  "dependencies": {
-    "typescript": "^4.7.4"
+  "devDependencies": {
+    "typescript": "^4.6.4",
+    "vite": "^3.0.7"
   }
 }
